@@ -1,0 +1,54 @@
+
+# CyberTrap - Git Ignore Rules
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and SQLite temporary files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Cowrie honeypot logs and captures
+honeypot/logs/
+*.log
+*.jsonl
+*.tty
+*.pcap
+
+# Node.js dependencies
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# macOS generated files
+.DS_Store
+.AppleDouble
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
